@@ -1,0 +1,262 @@
+{
+  "amazon web services": {
+    "image": "devicon-amazonwebservices-plain",
+    "link": "https://docs.aws.amazon.com/"
+  },
+  "angular": {
+    "image": "devicon-angularjs-plain",
+    "link": "https://docs.angularjs.org/guide"
+  },
+  "apache": {
+    "image": "devicon-apache-plain",
+    "link": "https://httpd.apache.org/docs/"
+  },
+  "azure": {
+    "image": "devicon-azure-plain",
+    "link": "https://learn.microsoft.com/en-us/azure/"
+  },
+  "babel": {
+    "image": "devicon-babel-plain",
+    "link": "https://babeljs.io/docs/en/usage"
+  },
+  "bootstrap": {
+    "image": "devicon-bootstrap-plain",
+    "link": "https://getbootstrap.com/docs/4.1/getting-started/introduction/"
+  },
+  "c": {
+    "image": "devicon-c-plain",
+    "link": "https://en.cppreference.com/w/c/language"
+  },
+  "c++": {
+    "image": "devicon-cplusplus-plain",
+    "link": "https://en.cppreference.com/w/"
+  },
+  "c#": {
+    "image": "devicon-csharp-plain",
+    "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+  },
+  "css": {
+    "image": "devicon-css3-plain",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  "django": {
+    "image": "devicon-django-plain",
+    "link": "https://docs.djangoproject.com/en/4.1/"
+  },
+  "docker": {
+    "image": "devicon-docker-plain",
+    "link": "https://docs.docker.com/"
+  },
+  ".net": {
+    "image": "devicon-dot-net-plain",
+    "link": "https://learn.microsoft.com/en-us/dotnet/"
+  },
+  ".net core": {
+    "image": "devicon-dotnetcore-plain",
+    "link": "https://learn.microsoft.com/en-us/dotnet/"
+  },
+  "digital ocean": {
+    "image": "devicon-digitalocean-plain",
+    "link": "https://docs.digitalocean.com/"
+  },
+  "electron": {
+    "image": "devicon-electron-original",
+    "link": "https://www.electronjs.org/docs/latest"
+  },
+  "express": {
+    "image": "devicon-express-original",
+    "link": "https://expressjs.com/en/api.html"
+  },
+  "firebase": {
+    "image": "devicon-firebase-plain",
+    "link": "https://firebase.google.com/docs"
+  },
+  "flask": {
+    "image": "devicon-flask-plain",
+    "link": "https://flask.palletsprojects.com/en/2.2.x/"
+  },
+  "git": {
+    "image": "devicon-git-plain",
+    "link": "https://www.git-scm.com/doc"
+  },
+  "github": {
+    "image": "devicon-github-plain",
+    "link": "https://docs.github.com/en"
+  },
+  "go": {
+    "image": "devicon-go-plain",
+    "link": "https://go.dev/doc/"
+  },
+  "graphql": {
+    "image": "devicon-graphql-plain",
+    "link": "https://graphql.org/learn/"
+  },
+  "heroku": {
+    "image": "devicon-heroku-plain",
+    "link": "https://devcenter.heroku.com/categories/reference"
+  },
+  "html": {
+    "image": "devicon-html5-plain",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+  },
+  "java": {
+    "image": "devicon-java-plain",
+    "link": "https://docs.oracle.com/en/java/"
+  },
+  "javascript": {
+    "image": "devicon-javascript-plain",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  "jenkins": {
+    "image": "devicon-jenkins-plain",
+    "link": "https://www.jenkins.io/doc/"
+  },
+  "jira": {
+    "image": "devicon-jira-plain",
+    "link": "https://confluence.atlassian.com/jira"
+  },
+  "jquery": {
+    "image": "devicon-jquery-plain",
+    "link": "https://api.jquery.com/"
+  },
+  "jupyter": {
+    "image": "devicon-jupyter-plain",
+    "link": "https://docs.jupyter.org/en/latest/"
+  },
+  "kubernetes": {
+    "image": "devicon-kubernetes-plain",
+    "link": "https://kubernetes.io/docs/home/"
+  },
+  "laravel": {
+    "image": "devicon-laravel-plain",
+    "link": "https://laravel.com/docs/9.x/installation"
+  },
+  "less": {
+    "image": "devicon-less-plain-wordmark",
+    "link": "https://lesscss.org/"
+  },
+  "lua": {
+    "image": "devicon-lua-plain",
+    "link": "https://www.lua.org/docs.html"
+  },
+  "materialui": {
+    "image": "devicon-materialui-plain",
+    "link": "https://mui.com/material-ui/getting-started/overview/"
+  },
+  "matlab": {
+    "image": "devicon-matlab-plain",
+    "link": "https://www.mathworks.com/help/matlab/"
+  },
+  "mongodb": {
+    "image": "devicon-mongodb-plain",
+    "link": "https://www.mongodb.com/docs/"
+  },
+  "mysql": {
+    "image": "devicon-mysql-plain",
+    "link": "https://dev.mysql.com/doc/"
+  },
+  "next": {
+    "image": "devicon-nextjs-plain",
+    "link": "https://nextjs.org/docs"
+  },
+  "nginx": {
+    "image": "devicon-nginx-plain",
+    "link": "https://nginx.org/en/docs/"
+  },
+  "node": {
+    "image": "devicon-nodejs-plain",
+    "link": "https://nodejs.org/en/docs/"
+  },
+  "npm": {
+    "image": "devicon-npm-original-wordmark",
+    "link": "https://docs.npmjs.com/"
+  },
+  "objective c": {
+    "image": "devicon-objectivec-plain",
+    "link": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+  },
+  "perl": {
+    "image": "devicon-perl-plain",
+    "link": "https://perldoc.perl.org/"
+  },
+  "php": {
+    "image": "devicon-php-plain",
+    "link": "https://www.php.net/docs.php"
+  },
+  "postresql": {
+    "image": "devicon-postgresql-plain",
+    "link": "https://www.postgresql.org/docs/"
+  },
+  "python": {
+    "image": "devicon-python-plain",
+    "link": "https://docs.python.org/3/"
+  },
+  "r": {
+    "image": "devicon-r-plain",
+    "link": "https://rdrr.io/r/"
+  },
+  "rails": {
+    "image": "devicon-rails-plain",
+    "link": "https://guides.rubyonrails.org/"
+  },
+  "react": {
+    "image": "devicon-react-original",
+    "link": "https://reactjs.org/docs/getting-started.html"
+  },
+  "redis": {
+    "image": "devicon-redis-plain",
+    "link": "https://redis.io/docs/"
+  },
+  "redux": {
+    "image": "devicon-redux-plain",
+    "link": "https://redux.js.org/usage/"
+  },
+  "ruby": {
+    "image": "devicon-ruby-plain",
+    "link": "https://www.ruby-lang.org/en/documentation/"
+  },
+  "salesforce": {
+    "image": "devicon-salesforce-plain",
+    "link": "https://developer.salesforce.com/docs"
+  },
+  "sass": {
+    "image": "devicon-sass-plain",
+    "link": "https://sass-lang.com/documentation/"
+  },
+  "scala": {
+    "image": "devicon-scala-plain",
+    "link": "https://docs.scala-lang.org/"
+  },
+  "sqlite": {
+    "image": "devicon-sqlite-plain",
+    "link": "https://www.sqlite.org/docs.html"
+  },
+  "sql server": {
+    "image": "devicon-microsoftsqlserver-plain",
+    "link": "https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16"
+  },
+  "swift": {
+    "image": "devicon-swift-plain",
+    "link": "https://www.swift.org/documentation/"
+  },
+  "typescript": {
+    "image": "devicon-typescript-plain",
+    "link": "https://www.typescriptlang.org/docs/"
+  },
+  "vue": {
+    "image": "devicon-vuejs-plain",
+    "link": "https://vuejs.org/guide/introduction.html"
+  },
+  "webpack": {
+    "image": "devicon-webpack-plain",
+    "link": "https://webpack.js.org/guides/getting-started/"
+  },
+  "wordpress": {
+    "image": "devicon-wordpress-plain",
+    "link": "https://codex.wordpress.org/Main_Page"
+  },
+  "yarn": {
+    "image": "devicon-yarn-plain",
+    "link": "https://classic.yarnpkg.com/lang/en/docs/"
+  }
+}

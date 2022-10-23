@@ -1,38 +1,259 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 98vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  background: rgb(24, 24, 24);
+  color: white;
+  font-family: 'Fira Code', Verdana, monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+}
+
+.fade-in-fast {
+  animation: fadeIn 200ms;
+  -webkit-animation: fadeIn 200ms;
+}
+
+.fade-in-slow {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+footer {
+  flex-shrink: 0;
+  padding-top: 40px;
+}
+
+footer ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  gap: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style-type: none;
+  padding-left: 0;
+  text-transform: uppercase;
+}
+
+footer ul a {
+  color: mediumaquamarine;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer ul a:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+  border-bottom: 4px solid white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 5px auto 0 auto;
+  text-transform: uppercase;
+  width: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+i {
+  color: mediumaquamarine;
+  font-size: 4rem;  
+}
+
+.legal {
+  padding: 10px 30px 20px 30px;
+  text-align: left;
+}
+
+.legal a {
+  color: mediumaquamarine;
+}
+
+.legal a:hover {
+  font-weight: 600;
+}
+
+.legal-body {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.legal-body-header {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.legal-date {
+  font-size: 0.9rem;
+  padding: 10px 0 30px 0;
+  text-align: center;
+}
+
+.legal-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.legal-header {
+  border-bottom: 4px solid white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: fit-content;
+}
+
+.legal-sub-header {
+  border-bottom: 2px solid white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 15px;
+  padding: 10px;
+  width: 150px;
+}
+
+.link:hover * {
+  cursor: pointer;
+  color: white;
+}
+
+.link a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#main-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.name {
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  footer ul {
+    font-size: 0.8rem;
+    gap: 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  i {
+    font-size: 3rem;  
+  }
+
+  .link {
+    gap: 10px;
+    padding: 10px;
+    width: 100px;
+  }
+
+  #main-section {
+    gap: 20px;
+    padding: 60px 0 30px 0;
+  }
+
+  .name {
+    font-size: 0.9rem;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer ul {
+    flex-direction: column;
+    font-size: 0.7rem;
+    gap: 10px;
+  }
+
+  i {
+    font-size: 2.5rem;  
+  }
+
+  .link {
+    width: 100px;
+  }
+
+  #main-section {
+    gap: 20px 10px;
+    padding: 40px 0 20px 0;
+  }
+
+  .name {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  i {
+    font-size: 2rem;  
+  }
+
+  .link {
+    width: 80px;
+  }
+
+  #main-section {
+    gap: 20px 10px;
+    padding: 40px 0 20px 0;
+  }
+
+  .name {
+    font-size: 0.7rem;
   }
 }
