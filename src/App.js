@@ -1,7 +1,8 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './components/Main';
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Terms from './components/Terms';
 import Privacy from './components/Privacy';
 import Cookies from './components/Cookies';
